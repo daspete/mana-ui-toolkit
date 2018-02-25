@@ -1,6 +1,6 @@
 {
   "name": "mana-ui-toolkit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "UI toolkit for mana-core",
   "author": "daspete <daspetemail@gmail.com>",
   "license": "MIT",
@@ -20,8 +20,12 @@
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": ["lib/templates/*.*"],
-  "files": ["lib"],
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true
