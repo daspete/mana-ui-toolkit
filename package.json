@@ -1,6 +1,6 @@
 {
   "name": "mana-ui-toolkit",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "UI toolkit for mana-core",
   "author": "daspete <daspetemail@gmail.com>",
   "license": "MIT",
@@ -30,7 +30,12 @@
     "testEnvironment": "node",
     "collectCoverage": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-plugin-transform-imports": "^1.4.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vuetify": "^1.0.3"
+  },
   "devDependencies": {
     "codecov": "latest",
     "eslint": "latest",
