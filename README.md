@@ -1,6 +1,6 @@
-# mana-uit
-[![npm (scoped with tag)](https://img.shields.io/npm/v/mana-uit/latest.svg?style=flat-square)](https://npmjs.com/package/mana-uit)
-[![npm](https://img.shields.io/npm/dt/mana-uit.svg?style=flat-square)](https://npmjs.com/package/mana-uit)
+# mana-ui-toolkit
+[![npm (scoped with tag)](https://img.shields.io/npm/v/mana-ui-toolkit/latest.svg?style=flat-square)](https://npmjs.com/package/mana-ui-toolkit)
+[![npm](https://img.shields.io/npm/dt/mana-ui-toolkit.svg?style=flat-square)](https://npmjs.com/package/mana-ui-toolkit)
 [![CircleCI](https://img.shields.io/circleci/project/github/.svg?style=flat-square)](https://circleci.com/gh/)
 [![Codecov](https://img.shields.io/codecov/c/github/.svg?style=flat-square)](https://codecov.io/gh/)
 [![Dependencies](https://david-dm.org//status.svg?style=flat-square)](https://david-dm.org/)
@@ -15,17 +15,17 @@
 The module features
 
 ## Setup
-- Add `mana-uit` dependency using yarn or npm to your project
-- Add `mana-uit` to `modules` section of `nuxt.config.js`
+- Add `mana-ui-toolkit` dependency using yarn or npm to your project
+- Add `mana-ui-toolkit` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    'mana-uit',
+    'mana-ui-toolkit',
 
     // With options
-    ['mana-uit', { /* module options */ }],
+    ['mana-ui-toolkit', { /* module options */ }],
  ]
 }
 ```
