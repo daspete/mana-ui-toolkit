@@ -1,6 +1,7 @@
 <template>
 <div>
     Works!
+    <admin></admin>
 </div>
 </template>
 
