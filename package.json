@@ -1,6 +1,6 @@
 {
   "name": "mana-ui-toolkit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "UI toolkit for mana-core",
   "author": "daspete <daspetemail@gmail.com>",
   "license": "MIT",
@@ -32,7 +32,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "nuxt": "latest",
     "codecov": "latest",
     "eslint": "latest",
     "eslint-config-standard": "latest",
@@ -44,6 +43,7 @@
     "eslint-plugin-vue": "latest",
     "jest": "latest",
     "jsdom": "latest",
+    "nuxt": "latest",
     "standard-version": "latest"
   }
 }
